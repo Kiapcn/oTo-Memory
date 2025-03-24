@@ -1,0 +1,64 @@
+# Dossiers de mémoire et logs
+user_memory/
+logs/
+
+# Fichiers de session
+session_*.jsonl
+last_topic.txt
+last_topic.txt.bak
+
+# Fichiers Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+
+# Fichiers macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.temp
+
+# oTo-Memory specific
+build/ready_to_export/
+*.dmg
+*.zip
+VERSION
+CHANGELOG.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Distribution
+dist/
+*.tar.gz
+*.zip
+*.dmg 
